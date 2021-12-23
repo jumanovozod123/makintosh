@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+}
+
+.col-none-text{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* .block-box{
+    width: 100%;
+    height: 100vh;
+    background: maroon;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+} */
+
+
+
+header .header-nav-link{
+    font-size: 12px;
+    color: #191919;
+    text-transform: uppercase;
+    margin-left: 26px;
+    transition: 0.5s;
+}
+
+header .header-nav-link:hover{
+    color: #007d2f;
+    text-shadow: -1px 5px 6px #007d2f;
+}
+
+header{
+    background: url(../img/fon-one.jpg) no-repeat center center / cover;
+    position: relative;
+    padding-top: 159px;
+    margin-bottom: -70px;
+}
+
+header .header-menu{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.contact{
+    padding-top: 100px;
+    background-color: #f5f5f5;
+}
+
+
+.left_contact h1{
+    font-size: 30pt;
+    margin-bottom: 35px;
+}
+.left_contact p{
+    font-size: 16pt;
+    color: #787878;
+    margin-bottom: 35px;
+}
+.left_contact ul{
+    margin-left: -30px;
+    
+}
+.left_contact ul li a{
+    
+    color: #787878;
+    font-size: 16pt;
+}
+
+.black{
+    font-size:16pt;
+    color: black;
+    font-weight: 600;
+}
+
+
+header .header-text h1{
+    font-size: 35px;
+    color: #1d1d1d;
+}
+
+form input{
+    width: 100%;
+   padding: 10px 0 12px 15px;
+   border: none;
+    font-size: 15px;
+    outline: none;
+    margin-bottom: 30px;
+}
+form textarea{
+    width: 100%;
+   padding: 10px 0 12px 15px;
+   border: none;
+    font-size: 15px;
+    outline: none;
+    margin-bottom: 30px;
+}
+button{
+    padding: 20px 22px;
+    background-color: #007d2f;
+    border: none;
+    width: 160px;
+    border-radius: 3%;
+
+}
+button a{
+    color: white;
+    font-size: 12pt;
+    
+}
+button a:hover{
+    color: white;
+}
+
+
+.map-container{
+    overflow:hidden;
+    
+    position:relative;
+    height:480px;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    .blackk{
+
+        padding: 90px 0 100px 0;
+        background-color: #000;
+
+    }
+    .left-box h1{
+
+        color: #fff;
+        font-size: 18pt;
+        
+    }
+    .left-box p{
+
+        color: #bcbcbc;
+        font-size: 14pt;
+        
+    }
+    footer a{
+
+        color: #bcbcbc;
+        font-size: 14pt;
+    }
+    .center-box a{
+        margin-left: 25%;
+    }
+    footer a:hover{
+        color: #fff;
+    }
+     .z-depth-1-half{
+        height: 600px;
+    }
+    @media (max-width: 360px) {
+        .blackk h1, p, ul li a{
+            justify-content: center;
+            text-align:center
+        }
+        .blackk .left-box{
+            margin-left: 50px;
+        }
+        #map-container-google-1{
+            height: 300px;
+            margin-bottom: -40px;
+            margin-top: -65px;
+        }
+    }
+    @media (max-width: 320px){
+        .blackk{
+            margin-left: -20px;
+        }
+    }
+    @media (min-width: 375px){
+        .blackk h1, p, ul li a{
+            justify-content: center;
+            text-align:center
+        }
+        .blackk h1, p{
+            margin-left: 30px;
+        }
+        #map-container-google-1{
+            height: 300px;
+            margin-bottom: -40px;
+            margin-top: -65px;
+        }
+        .text{
+            margin-left: 0px;
+        }
+    }
+
